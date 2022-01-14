@@ -1,0 +1,6 @@
+lw R10, 100(R0)
+add R1, R10, R0
+addi R2, R10, 1
+beq R10, R10, 5
+bne R10, R2, 7
+j 5
